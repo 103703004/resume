@@ -1,0 +1,32 @@
+body{
+    max-width: 960px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.table-bordered td, .table-bordered th, .table thead th{
+    border-color: black;
+}
+
+thead{
+    font-size: 1.5rem;
+    background-color: #e2d6ff;
+}
+
+th, td{
+    text-align: center;
+}
+
+tbody th, tbody td{
+    font-size: 1.2rem;
+}
+
+thead .title{
+    border-top: 2px solid black;
+}
