@@ -12,6 +12,7 @@ h1{
 
 .table-bordered td, .table-bordered th, .table thead th{
     border-color: black;
+    border-bottom: 1px solid black;
 }
 
 thead{
@@ -25,8 +26,4 @@ th, td{
 
 tbody th, tbody td{
     font-size: 1.2rem;
-}
-
-thead .title{
-    border-top: 2px solid black;
 }
