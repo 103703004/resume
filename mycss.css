@@ -77,3 +77,7 @@ canvas{
 article{
     text-align: center;
 }
+
+.container{
+    margin-top: 50px;
+}

@@ -12,11 +12,33 @@
     <title>我的履歷</title>
 </head>
 
-<body>
+<body id="top">
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">我的履歷</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">作品集</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#score">成績</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#english">外語能力證明</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        <header>
-            <h1>我的履歷</h1>
-        </header>
+        <h1 id="resume">我的履歷</h1>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -194,8 +216,23 @@
                 </tr>
                 -->
             </tbody>
+            <thead>
+                <tr>
+                    <th colspan="2" class="title">實習經驗</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">105暑假</th>
+                    <td>拓樸龍科技股份有限公司</td>
+                </tr>
+                <tr>
+                    <th scope="row">103暑假</th>
+                    <td>TOEIC 890分</td>
+                </tr>
+            </tbody>
         </table>
-        <h1>作品集</h1>
+        <h1 id="work">作品集</h1>
         <div class="contain">
             <section id="CA">
                 <h4>電腦動畫</h4>
@@ -261,7 +298,7 @@
                 <p><a href="img/103703004期末作業.pdf" target="_blank">技術應用及功能展示</a></p>
             </section>
         </div>
-        <h1>成績</h1>
+        <h1 id="score">成績</h1>
         <article>
             <h4>歷年平均成績</h4>
             <img src="img/score.png" alt="歷年平均成績" width="62%">
@@ -270,7 +307,7 @@
             <h4>中文成績單</h4>
             <img src="img/成績單.jpg" alt="中文成績單" width="90%">
         </article>
-        <h1>外語能力證明</h1>
+        <h1 id="english">外語能力證明</h1>
         <article>
             <h4 id="toeic">TOEIC</h4>
             <img src="img/toeic.jpg" alt="TOEIC 890分" width="70%">
