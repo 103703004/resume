@@ -39,7 +39,7 @@ section{
     /*border: 1px solid black;*/
 }
 
-section h4{
+h4{
     font-weight: bold;
     padding: 10px;
 }
@@ -72,4 +72,8 @@ canvas{
     section{
         width: 100%;
     }
+}
+
+article{
+    text-align: center;
 }
