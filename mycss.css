@@ -84,4 +84,15 @@ article{
 
 i{
     padding: 10px;
+    font-size: 1.5rem;
+}
+
+.img-fluid{ 
+    height: 50%;
+    max-height: 400px;
+}
+
+#carouselExampleControls{
+    width: 80%;
+    margin: auto;
 }
