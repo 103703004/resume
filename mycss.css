@@ -89,10 +89,10 @@ i{
 
 .img-fluid{ 
     height: 50%;
-    max-height: 400px;
+    max-height: 350px;
 }
 
 #carouselExampleControls{
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
