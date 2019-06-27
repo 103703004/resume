@@ -97,3 +97,8 @@ i{
     width: 75%;
     margin: auto;
 }
+
+#carouselExampleIndicators1, #carouselExampleIndicators2{
+    width: 95%;
+    margin: auto;
+}
